@@ -1,0 +1,16 @@
+.gradient-text {
+    background-image: linear-gradient(to right, #ff0000, #0000ff);
+    /* Example gradient from red to blue */
+
+    background-clip: text;
+
+    color: transparent;
+    /* Make text transparent to show the gradient */
+}
+
+body {
+    background: linear-gradient(113.5deg, rgb(234, 234, 234) 22.3%, rgb(201, 234, 211) 56.6%, rgb(255, 180, 189) 90.9%);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
